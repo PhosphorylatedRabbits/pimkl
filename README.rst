@@ -3,9 +3,6 @@ pimkl
 =====
 
 
-# .. image:: https://img.shields.io/pypi/v/pimkl.svg
-#         :target: https://pypi.python.org/pypi/pimkl
-
 .. image:: https://travis-ci.org/PhosphorylatedRabbits/pimkl.svg
     :target: https://travis-ci.org/PhosphorylatedRabbits/pimkl
 
