@@ -3,11 +3,11 @@ pimkl
 =====
 
 
-.. image:: https://img.shields.io/pypi/v/pimkl.svg
-        :target: https://pypi.python.org/pypi/pimkl
+# .. image:: https://img.shields.io/pypi/v/pimkl.svg
+#         :target: https://pypi.python.org/pypi/pimkl
 
-.. image:: https://img.shields.io/travis/C-nit/pimkl.svg
-        :target: https://travis-ci.org/C-nit/pimkl
+.. image:: https://travis-ci.org/PhosphorylatedRabbits/pimkl.svg
+    :target: https://travis-ci.org/PhosphorylatedRabbits/pimkl
 
 .. image:: https://readthedocs.org/projects/pimkl/badge/?version=latest
         :target: https://pimkl.readthedocs.io/en/latest/?badge=latest
