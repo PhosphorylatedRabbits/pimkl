@@ -15,7 +15,7 @@ pimkl
 
 
 .. image:: https://pyup.io/repos/github/C-nit/pimkl/shield.svg
-     :target: https://pyup.io/repos/github/C-nit/pimkl/
+     :target: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/
      :alt: Updates
 
 
