@@ -14,7 +14,7 @@ pimkl
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/C-nit/pimkl/shield.svg
+.. image:: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/shield.svg
      :target: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/
      :alt: Updates
 
