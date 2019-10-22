@@ -3,14 +3,14 @@ pimkl
 =====
 
 
-.. image:: https://travis-ci.org/PhosphorylatedRabbits/pimkl.svg
+.. .. image:: https://travis-ci.org/PhosphorylatedRabbits/pimkl.svg
     :target: https://travis-ci.org/PhosphorylatedRabbits/pimkl
 
-.. image:: https://readthedocs.org/projects/pimkl/badge/?version=latest
+.. .. image:: https://readthedocs.org/projects/pimkl/badge/?version=latest
         :target: https://pimkl.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/shield.svg
+.. .. image:: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/shield.svg
      :target: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/
      :alt: Updates
 
