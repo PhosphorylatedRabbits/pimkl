@@ -10,7 +10,6 @@ pimkl
         :target: https://pimkl.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/shield.svg
      :target: https://pyup.io/repos/github/PhosphorylatedRabbits/pimkl/
      :alt: Updates
@@ -27,7 +26,41 @@ pathway induced multiple kernel learning for computational biology
 Features
 --------
 
-* TODO
+The pimkl command:
+
+.. code-block:: console
+
+Usage: pimkl [OPTIONS] NETWORK_CSV_FILE NETWORK_NAME GENE_SETS_GMT_FILE
+             GENE_SETS_NAME PREPROCESS_DIR OUTPUT_DIR CLASS_LABEL_FILE [LAM]
+             [K] [NUMBER_OF_FOLDS] [MAX_PER_CLASS] [SEED] [MAX_PROCESSES]
+             [FOLD]
+
+  Console script for a complete pimkl pipeline, including preprocessing and
+  analysis. For more details consult the following console scripts, which
+  are here executed in this order. `pimkl-preprocess --help` `pimkl-analyse
+  run-preformance-analysis --help` `pimkl-analyse run-kpca--help`
+
+Options:
+  -fd, --data_csv_file PATH       [required]
+  -nd, --data_name TEXT           [required]
+  --model_name [EasyMKL|UMKLKNN|AverageMKL]
+  --help                          Show this message and exit.
+
+
+Installation
+--------
+
+Install the dependencies
+
+.. code-block:: bash
+
+    pip install -r requirements.txt
+
+Install the package
+
+.. code-block:: bash
+
+    pip install .
 
 Credits
 -------
