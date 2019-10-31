@@ -38,7 +38,7 @@ The pimkl command:
     Console script for a complete pimkl pipeline, including preprocessing and
     analysis. For more details consult the following console scripts, which
     are here executed in this order. `pimkl-preprocess --help` `pimkl-analyse
-    run-preformance-analysis --help` `pimkl-analyse run-kpca--help`
+    run-performance-analysis --help` `pimkl-analyse run-kpca --help`
 
     Options:
     -fd, --data_csv_file PATH       [required]
