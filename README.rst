@@ -46,9 +46,16 @@ The pimkl command:
     --model_name [EasyMKL|UMKLKNN|AverageMKL]
     --help                          Show this message and exit.
 
+Requirements
+-------------
+
+* C++14 capable C++ compiler
+* cmake (>3.0.2)
+* Python
+
 
 Installation
---------
+-------------
 
 Install the dependencies
 
@@ -62,10 +69,16 @@ Install the package
 
     pip install .
 
+
+Tutorial
+---------
+
+You can find a brief tutorial in the dedicated folder.
+
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
