@@ -396,7 +396,7 @@ def main():
 @click.argument('max_per_class', default=20)
 @click.argument('seed', default=0)
 @click.argument('max_processes', default=1)
-def run_preformance_analysis(
+def run_performance_analysis(
     data_names, network_name, gene_sets_name, preprocess_dir, output_dir,
     class_label_file, model_name, lam, k, number_of_folds, max_per_class, seed,
     max_processes
@@ -472,7 +472,7 @@ def run_kpca(
     return 0
 
 
-main.add_command(run_preformance_analysis)
+main.add_command(run_performance_analysis)
 main.add_command(run_kpca)
 
 if __name__ == "__main__":

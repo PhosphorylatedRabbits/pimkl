@@ -47,8 +47,7 @@ def main(
     and analysis. For more details consult the following console scripts, which
     are here executed in this order.
     `pimkl-preprocess --help`
-    `pimkl-analyse run-preformance-analysis --help`
-    `pimkl-analyse run-kpca--help`
+    `pimkl-analyse run-performance-analysis --help`
     """
 
     preprocess_data_and_inducers(
@@ -72,16 +71,17 @@ def main(
             output_dir, output_filename_core
         )
 
-    kpca(
-        data_names,
-        network_name,
-        gene_sets_name,
-        preprocess_dir,
-        output_dir,
-        class_label_file,
-        weights_csv_file,
-        fold,
-    )
+    # NOTE: the kernel PCA at the moment can be run in a separate step
+    # kpca(
+    #     data_names,
+    #     network_name,
+    #     gene_sets_name,
+    #     preprocess_dir,
+    #     output_dir,
+    #     class_label_file,
+    #     weights_csv_file,
+    #     fold,
+    # )
 
     return 0
 

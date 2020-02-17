@@ -31,14 +31,14 @@ The pimkl command:
 .. code-block:: console
 
     Usage: pimkl [OPTIONS] NETWORK_CSV_FILE NETWORK_NAME GENE_SETS_GMT_FILE
-                GENE_SETS_NAME PREPROCESS_DIR OUTPUT_DIR CLASS_LABEL_FILE [LAM]
-                [K] [NUMBER_OF_FOLDS] [MAX_PER_CLASS] [SEED] [MAX_PROCESSES]
-                [FOLD]
+             GENE_SETS_NAME PREPROCESS_DIR OUTPUT_DIR CLASS_LABEL_FILE [LAM]
+             [K] [NUMBER_OF_FOLDS] [MAX_PER_CLASS] [SEED] [MAX_PROCESSES]
+             [FOLD]
 
     Console script for a complete pimkl pipeline, including preprocessing and
     analysis. For more details consult the following console scripts, which
     are here executed in this order. `pimkl-preprocess --help` `pimkl-analyse
-    run-performance-analysis --help` `pimkl-analyse run-kpca --help`
+    run-performance-analysis --help`
 
     Options:
     -fd, --data_csv_file PATH       [required]
@@ -46,9 +46,16 @@ The pimkl command:
     --model_name [EasyMKL|UMKLKNN|AverageMKL]
     --help                          Show this message and exit.
 
+Requirements
+-------------
+
+* C++14 capable C++ compiler
+* cmake (>3.0.2)
+* Python
+
 
 Installation
---------
+-------------
 
 Install the dependencies
 
@@ -62,10 +69,16 @@ Install the package
 
     pip install .
 
+
+Tutorial
+---------
+
+You can find a brief tutorial in the dedicated folder.
+
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
