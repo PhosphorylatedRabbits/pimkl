@@ -31,14 +31,14 @@ The pimkl command:
 .. code-block:: console
 
     Usage: pimkl [OPTIONS] NETWORK_CSV_FILE NETWORK_NAME GENE_SETS_GMT_FILE
-                GENE_SETS_NAME PREPROCESS_DIR OUTPUT_DIR CLASS_LABEL_FILE [LAM]
-                [K] [NUMBER_OF_FOLDS] [MAX_PER_CLASS] [SEED] [MAX_PROCESSES]
-                [FOLD]
+             GENE_SETS_NAME PREPROCESS_DIR OUTPUT_DIR CLASS_LABEL_FILE [LAM]
+             [K] [NUMBER_OF_FOLDS] [MAX_PER_CLASS] [SEED] [MAX_PROCESSES]
+             [FOLD]
 
     Console script for a complete pimkl pipeline, including preprocessing and
     analysis. For more details consult the following console scripts, which
     are here executed in this order. `pimkl-preprocess --help` `pimkl-analyse
-    run-performance-analysis --help` `pimkl-analyse run-kpca --help`
+    run-performance-analysis --help`
 
     Options:
     -fd, --data_csv_file PATH       [required]
