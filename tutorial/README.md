@@ -2,7 +2,7 @@
 
 ## Data retrieval
 
-You can download the data from the tutorial from [here](https://ibm.box.com/v/pimkl-tutorial-data)
+You can download the data from the tutorial from [here](https://ibm.box.com/v/pimkl-tutorial-data).
 
 In the following we assume you placed files in a folder called data with the following structure:
 
