@@ -1,5 +1,7 @@
+dist: bionic
 language: python
 python:
+- 3.8
 - 3.7
 - 3.6
 - 3.5
@@ -13,6 +15,7 @@ deploy:
   password:
     secure: jsWYfKib4Sc3LxDTNx9lMIG3c8uzyS9dpc5thmZUMA2uUaK3Cy8xtLErPOFNQUoT0/wA0xYNsiGGm0mVZp5iysiNZQcIuOhCbBzEO0ovDEmXr38qLVvsl+6jtKyX8euG35+iPZaYiPpRWjW4fot236+Vu+PZke1VWLauzanBqAk0gzws5F9fSrJwpCHoBYkVXNS1UTa54VDb+sHqGFCMbJuQ3ECAt5QzYIGGYDDX01EURVM5/no99bsWqWEeeGOifWtJnLeMm84Y+X4/aUrcn8e02ItDRpdnnprsqQfaw2mr/trP7QrGmPiW/Ui49V8rfmM/hzzidjdJExK0+fWFqJ8JkuaXr+YdoBuHRY45EzDQcWf3Eig7NX+XP3XyLpzJ1odvodzC6NNiOT67hekq7AHtAYXsLVcbrcdslVZsjW7gKuGwaJkXm2wwqQ57h2wN/gf9BfwiKl43VZ8J0IcviQJSsUF04goa3Fi1m49nHlXhP8tUe9XhyxQ5+Rhx0kO8BAZ0WMlPvqRZLuMWdASV8kj2At5LjaQ9LMqGOqI4UVPyJV/JJRlUIQSQLEYPhl3d38yaDknjHblrS/ujrs0jeZ2HlGX2KWJ8xzKo4DDxFSw03ICScLwt9q13IO9gZHvoALiLw66hNhYl5G2ZwXMqREzwGpZrnZ4OJELui7e0fhs=
   on:
+    branch: master
     tags: true
     repo: PhosphorylatedRabbits/pimkl
     python: 3.7
