@@ -5,7 +5,9 @@ Subpackages
 -----------
 
 .. toctree::
+   :maxdepth: 4
 
+   pimkl.cli
    pimkl.factories
    pimkl.models
    pimkl.utils
@@ -17,6 +19,14 @@ pimkl.analysis module
 ---------------------
 
 .. automodule:: pimkl.analysis
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pimkl.cli module
+----------------
+
+.. automodule:: pimkl.cli
    :members:
    :undoc-members:
    :show-inheritance:
@@ -37,14 +47,6 @@ pimkl.evaluation module
    :undoc-members:
    :show-inheritance:
 
-pimkl.examples module
----------------------
-
-.. automodule:: pimkl.examples
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 pimkl.inducers module
 ---------------------
 
@@ -61,6 +63,14 @@ pimkl.network module
    :undoc-members:
    :show-inheritance:
 
+pimkl.pimkl module
+------------------
+
+.. automodule:: pimkl.pimkl
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 pimkl.run module
 ----------------
 
@@ -68,7 +78,6 @@ pimkl.run module
    :members:
    :undoc-members:
    :show-inheritance:
-
 
 Module contents
 ---------------

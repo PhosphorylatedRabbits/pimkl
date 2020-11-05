@@ -1,5 +1,5 @@
-pimkl
-=====
+pimkl API
+=========
 
 .. toctree::
    :maxdepth: 4

@@ -5,6 +5,7 @@ Subpackages
 -----------
 
 .. toctree::
+   :maxdepth: 4
 
    pimkl.utils.preprocessing
 
@@ -18,7 +19,6 @@ pimkl.utils.objects module
    :members:
    :undoc-members:
    :show-inheritance:
-
 
 Module contents
 ---------------

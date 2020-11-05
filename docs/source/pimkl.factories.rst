@@ -28,7 +28,6 @@ pimkl.factories.mkl\_factory module
    :undoc-members:
    :show-inheritance:
 
-
 Module contents
 ---------------
 

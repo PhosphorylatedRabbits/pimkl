@@ -28,7 +28,6 @@ pimkl.utils.preprocessing.standardizer module
    :undoc-members:
    :show-inheritance:
 
-
 Module contents
 ---------------
 
