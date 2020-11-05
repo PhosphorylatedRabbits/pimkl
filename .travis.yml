@@ -9,14 +9,13 @@ install: pip install -U tox-travis
 script: tox
 deploy:
   provider: pypi
-  server: https://test.pypi.org/legacy/
   distributions: sdist bdist_wheel
-  user: C-nit
+  username: __token__
   password:
-    secure: jsWYfKib4Sc3LxDTNx9lMIG3c8uzyS9dpc5thmZUMA2uUaK3Cy8xtLErPOFNQUoT0/wA0xYNsiGGm0mVZp5iysiNZQcIuOhCbBzEO0ovDEmXr38qLVvsl+6jtKyX8euG35+iPZaYiPpRWjW4fot236+Vu+PZke1VWLauzanBqAk0gzws5F9fSrJwpCHoBYkVXNS1UTa54VDb+sHqGFCMbJuQ3ECAt5QzYIGGYDDX01EURVM5/no99bsWqWEeeGOifWtJnLeMm84Y+X4/aUrcn8e02ItDRpdnnprsqQfaw2mr/trP7QrGmPiW/Ui49V8rfmM/hzzidjdJExK0+fWFqJ8JkuaXr+YdoBuHRY45EzDQcWf3Eig7NX+XP3XyLpzJ1odvodzC6NNiOT67hekq7AHtAYXsLVcbrcdslVZsjW7gKuGwaJkXm2wwqQ57h2wN/gf9BfwiKl43VZ8J0IcviQJSsUF04goa3Fi1m49nHlXhP8tUe9XhyxQ5+Rhx0kO8BAZ0WMlPvqRZLuMWdASV8kj2At5LjaQ9LMqGOqI4UVPyJV/JJRlUIQSQLEYPhl3d38yaDknjHblrS/ujrs0jeZ2HlGX2KWJ8xzKo4DDxFSw03ICScLwt9q13IO9gZHvoALiLw66hNhYl5G2ZwXMqREzwGpZrnZ4OJELui7e0fhs=
+    secure: i14bngeQTFZS24xHauwDOD4fzEqOezbiGLLuz2hTcQy7hCwfP1Tq/4onvt/iArcbOFTzJ1zGR4MrdPb9z8r6N52vlTvhRqgXzjsRBCFPqweFricGup+EPOwV1ptW6Ws/YLuZzl59nvw1kPJollvFVpfdeqnBmPb32BvJxfENWDryJZFT9HaTD/vjqOXvsFGWjVKWwHkVI+4d0zgM0Za5SSdWw6mC2x2m6SSZpFbD2SdxF1pGuUbt38k9q3GixlEfptw8ov3jxCj4nc2zRIi4GJDBWYlj66ODa+yJUEJ1Dt8Q0XMwDxpTCDK5Y5UJdn3ARxlNSYe0dWcBUjoqof0p0ZLcmoit23Cw8qd1Xzu/iOLsaE6SbWxYhcL5QXXHQiG0yEbf3067fFuRSOmlQLyWsGCL8Svxh7uPis+5SUhsYJwODqcR2yBjkL3XfOofcvi4pc/oKUWXe9GKm4DQCR9B/MGTNvDSvantQWpym5gPuIUndtwEV3w3o73E/YVTSt0Sna4IcH5xMnklX9c5o+2ryz8TgtQg/998mbvMiSEShpyaNYoEBFkXrEepi12bbgwg8uVCs4z980o2pgWuDuLPCr+2kncud9kY9aZzjUT5pK8WNYr+zbTQ9tzlx/m9FcYlL55Ep+M1vQ3I07RjoY4bCYD5HxLKbqa/wq2hfz9o7Ho=
   on:
     all_branches: true
-    # branch: master
-    # tags: true
+    branch: master
+    tags: true
     repo: PhosphorylatedRabbits/pimkl
     python: 3.7
