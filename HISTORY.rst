@@ -2,10 +2,12 @@
 History
 =======
 
-0.1.0 (2020-11-05)
+0.1.1 (2020-11-05)
 ------------------
 
-* First release on PyPI.
+* Release on PyPI.
+* Setup tox tests on travis.
+* Setup readthedocs.
 
 0.1.0 (2019-10-01)
 ------------------
