@@ -11,6 +11,7 @@ pimkl.factories.estimator\_factory module
    :members:
    :undoc-members:
    :show-inheritance:
+.. autoattribute:: pimkl.factories.estimator_factory.ESTIMATOR_FACTORY
 
 pimkl.factories.induction\_factory module
 -----------------------------------------
@@ -19,6 +20,7 @@ pimkl.factories.induction\_factory module
    :members:
    :undoc-members:
    :show-inheritance:
+.. autoattribute:: pimkl.factories.induction_factory.INDUCTION_FACTORY
 
 pimkl.factories.mkl\_factory module
 -----------------------------------
@@ -27,6 +29,11 @@ pimkl.factories.mkl\_factory module
    :members:
    :undoc-members:
    :show-inheritance:
+.. autoclass:: pimkl.factories.mkl_factory.WeightedAverageMKL
+   :members:
+   :undoc-members:
+   :show-inheritance:
+.. autoattribute:: pimkl.factories.mkl_factory.MKL_FACTORY
 
 Module contents
 ---------------

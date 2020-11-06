@@ -23,14 +23,6 @@ pimkl.analysis module
    :undoc-members:
    :show-inheritance:
 
-pimkl.cli module
-----------------
-
-.. automodule:: pimkl.cli
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 pimkl.data module
 -----------------
 

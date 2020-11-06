@@ -14,7 +14,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
-import pimkl
+from pimkl import __version__ as pimkl_version
 
 # -- Project information -----------------------------------------------------
 
@@ -24,9 +24,9 @@ author = u"Joris Cadow and Matteo Manica"
 
 # The full version, including alpha/beta/rc tags
 # The short X.Y version.
-version = pimkl.__version__
+version = pimkl_version
 # The full version, including alpha/beta/rc tags.
-release = pimkl.__version__
+release = pimkl_version
 
 
 # -- General configuration ---------------------------------------------------
