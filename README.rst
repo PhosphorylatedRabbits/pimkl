@@ -75,6 +75,12 @@ Tutorial
 
 You can find a brief tutorial in the dedicated folder.
 
+Web service deprecation
+-------
+
+The PIMKL web-service has been deprecated in favour of the python package hosted in this repository.
+Please check the examples and the tutorials to use PIMKL in your research.
+
 Credits
 -------
 
